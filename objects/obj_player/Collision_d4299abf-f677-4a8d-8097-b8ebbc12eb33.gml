@@ -1,13 +1,13 @@
 /// @description Collide
 
-if (inv = 0) {
-	hp -= 1;
-} else if (inv = 1) {
+if (global.inv = 0) {
+	global.hp -= 1;
+} else if (global.inv = 1) {
 	score += 5;
 	instance_destroy(other);
 }
 
 // GameOver
-if (hp <= 0) {
+if (global.hp <= 0) {
 	room_restart();
 }

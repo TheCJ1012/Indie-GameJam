@@ -16,21 +16,21 @@ if keyboard_check(ord("W")) {
 }
 
 // Player Attack
-if pow >= 1 && keyboard_check(vk_space) {
-	inv = 1;
+if global.pow >= 1 && keyboard_check(vk_space) {
+	global.inv = 1;
 	sprite_index = spr_attack;
-	pow -= 1;
+	global.pow -= 1;
 	spd = 6;
 } else {
 	sprite_index = spr_player;
-	inv = 0;
-	pow += 1;
+	global.inv = 0;
+	global.pow += 1;
 	spd = 4;
 }
 
 // Limit
-if pow <= 0 {
-	pow = 0;	
-} else if pow >= 100 {
-	pow = 100;	
+if global.pow <= 0 {
+	global.pow = 0;	
+} else if global.pow >= 100 {
+	global.pow = 100;	
 }

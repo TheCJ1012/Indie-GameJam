@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "84242b3d-d666-4b8c-adcd-68b7d7b04d56",
+            "Value": {
+                "id": "7c0f5076-6bc9-41c9-865e-526fefe3fc92",
+                "resourcePath": "views\\84242b3d-d666-4b8c-adcd-68b7d7b04d56.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e6e423c-9f70-4e57-8427-ff4a33a634f2",
             "Value": {
                 "id": "378b1598-1a7d-4ac3-8ed0-e78b3a5ae885",
@@ -140,6 +148,14 @@
                 "id": "3bcb8514-1f6b-4bef-bc7a-6c05af5ae95d",
                 "resourcePath": "views\\8f84ef29-8b85-4e0a-aaa8-5bc70493cadc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "938aca0d-181c-464a-a621-859874fde1ea",
+            "Value": {
+                "id": "20946e89-4730-490d-bb24-82d7d27ccff6",
+                "resourcePath": "objects\\Power\\Power.yy",
+                "resourceType": "GMObject"
             }
         },
         {
